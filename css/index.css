@@ -3,7 +3,7 @@ body{
     height: 100%;
     margin: 0;
     background-color: #caeffa;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Arial;
 }
 
 .img-stretch {
@@ -20,7 +20,7 @@ body{
 }
 
 .page-content {
-    border-bottom-color: #ff7b00;
+    border-bottom-color: #3eaae3;
     border-radius: 10px;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -71,21 +71,14 @@ body{
     text-align: left;
 }
 
-.page-content u{
-    text-decoration: none;
-    border-bottom: 4px solid;
-    border-bottom-color: inherit;
-    display: inline-block;
-}
-
 .page-content b{
     font-weight: bold;
-    color: #ff7b00;
+    color: #3eaae3;
     display: inline-block;
 }
 
 .header-card {
-    border-bottom-color: #ff7b00;
+    border-bottom-color: #3eaae3;
     border-radius: 10px;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -136,16 +129,9 @@ body{
     text-align: left;
 }
 
-.header-card u{
-    text-decoration: none;
-    border-bottom: 4px solid;
-    border-bottom-color: inherit;
-    display: inline-block;
-}
-
 .header-card b{
     font-weight: bold;
-    color: #ff7b00;
+    color: #3eaae3;
     display: inline-block;
 }
 
@@ -156,8 +142,14 @@ body{
     margin-right: -10px;
     margin-bottom: 40px;
     height: 100px;
-    background-image: linear-gradient(#2d8dd6, #134984);
+    background-color: #1c1b25;
     box-shadow: -10px -26px 50px 5px #2f2f2f, 0 11px 20px 5px #2f2f2f5a;
+}
+
+#inner-navbar{
+    width: 100%;
+    background-color: #303030;
+    height: 85px;
 }
 
 #banner {
