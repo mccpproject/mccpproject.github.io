@@ -3,6 +3,7 @@ body{
     height: 100%;
     margin: 0;
     background-image: url("../images/backgroundtexture.png");
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .img-stretch{
