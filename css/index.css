@@ -19,20 +19,33 @@ body{
     overflow-x: hidden;
 }
 
+#page{
+    margin-left: 5%;
+    width: 66%;
+    float: left;
+}
+
+#sidebar{
+    z-index: -10;
+    margin-left: 2%;
+    width: 23%;
+    float: left;
+}
+
 .page-content {
     border-bottom-color: #3eaae3;
-    border-radius: 10px;
+    border-radius: 4px;
     padding-top: 20px;
     padding-bottom: 20px;
     z-index: -10;
     display: block;
     background-color: #ffffff;
     margin-top: 20px;
-    margin-left: 15%;
-    margin-right: 15%;
     margin-bottom: 50px;
-    min-width: 70%;
-    max-width: 70%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    min-width: 95%;
+    max-width: 95%;
     display: flex;
     flex-direction: column;
     box-shadow: 0 11px 20px 5px #2f2f2f5a;
@@ -79,18 +92,16 @@ body{
 
 .header-card {
     border-bottom-color: #3eaae3;
-    border-radius: 10px;
+    border-radius: 4px;
     padding-top: 20px;
     padding-bottom: 20px;
     z-index: -10;
     display: block;
     background-color: #ffffff;
     margin-top: 70px;
-    margin-left: 10%;
-    margin-right: 10%;
     margin-bottom: 30px;
-    min-width: 80%;
-    max-width: 80%;
+    min-width: 100%;
+    max-width: 100%;
     display: flex;
     flex-direction: column;
     box-shadow: 0 11px 20px 5px #2f2f2f5a;
