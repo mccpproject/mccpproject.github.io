@@ -2,7 +2,7 @@ body{
     width: 100%;
     height: 100%;
     margin: 0;
-    background-color: #caeffa;
+    background-image: url("../images/backgroundtexture.png");
     font-family: Arial;
 }
 
@@ -20,8 +20,8 @@ body{
 }
 
 #page{
-    margin-left: 5%;
-    width: 66%;
+    margin-left: 19%;
+    width: 40%;
     float: left;
 }
 
@@ -32,8 +32,13 @@ body{
     float: left;
 }
 
-.page-content {
+.classic-formatting{
     border-bottom-color: #3eaae3;
+}
+
+.page-content {
+    border: solid;
+    border-color: #767676;
     border-radius: 4px;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -49,6 +54,7 @@ body{
     display: flex;
     flex-direction: column;
     box-shadow: 0 11px 20px 5px #2f2f2f5a;
+    -ms-box-shadow: 0 11px 20px 5px #2f2f2f5a;
 }
 
 .page-content h1{
@@ -91,7 +97,8 @@ body{
 }
 
 .header-card {
-    border-bottom-color: #3eaae3;
+    border: solid;
+    border-color: #767676;
     border-radius: 4px;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -105,6 +112,7 @@ body{
     display: flex;
     flex-direction: column;
     box-shadow: 0 11px 20px 5px #2f2f2f5a;
+    -ms-box-shadow: 0 11px 20px 5px #2f2f2f5a;
 }
 
 .header-card h1{
@@ -155,6 +163,7 @@ body{
     height: 100px;
     background-color: #1c1b25;
     box-shadow: 0 11px 20px 5px #2f2f2f5a;
+    -ms-box-shadow: 0 11px 20px 5px #2f2f2f5a;
 }
 
 #inner-navbar{
@@ -169,6 +178,7 @@ body{
     height: 200px;
     background-image: url("../images/placeholder.png");
     box-shadow: inset 0 0 0 100px rgba(43, 43, 43, 0.572);
+    -ms-box-shadow: inset 0 0 0 100px rgba(43, 43, 43, 0.572);
     background-size: cover;
     text-align: center;
     padding: 0;
