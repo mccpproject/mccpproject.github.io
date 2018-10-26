@@ -78,6 +78,7 @@ body{
     display: block;
     text-align: center;
     font-size: 56px;
+    font-weight: bolder;
 }
 
 .page-content h2{
@@ -149,6 +150,7 @@ body{
     display: block;
     text-align: center;
     font-size: 56px;
+    font-weight: bold;
 }
 
 .header-card h2{
